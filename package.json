@@ -3,11 +3,11 @@
   "version": "0.0.0",
   "description": "ms-test",
   "scripts": {
-    "start": "npm run watch",
+    "start": "npm run watch:webpack",
     "dev": "webpack serve",
     "build": "webpack",
     "build:tailwind": "npx tailwindcss -i ./scss/app.scss ./app.css",
-    "watch": "webpack -w",
+    "watch:webpack": "webpack -w",
     "watch:tailwind": "npx tailwindcss -i ./scss/app.scss ./app.css --watch"
   },
   "license": "UNLICENSED",
